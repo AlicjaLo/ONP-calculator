@@ -52,24 +52,10 @@ public:
 
 int main() {
     Node* root = new Node(1);
-    int toInsert = 1;
-    int& referencja = toInsert;
-    int* pointer = &toInsert;
-    *pointer = 0;
-    toInsert = 2;
-    int* arr = new int[10];
-    *arr = 1;
-    *(arr + 1) = 2;
-    *(arr + 2) = 3;
-    int x = 3;
-    int y = 6;
-    int* p1 = &x;
-    *p1 = 3;
-    p1 = &y;
-    //cout << toInsert << endl;
-    //cout << pointer << endl;
-    //cout << referencja << endl;
-    //while(cin >> toInsert)
-    //    root->insert(toInsert);
-    //root->inOrder();
+	root.insert(3);
+	root.insert(-1);
+	root.insert(10);
+	root.insert(1);
+	root.insert(2);
+	root.inOrder();
 }
