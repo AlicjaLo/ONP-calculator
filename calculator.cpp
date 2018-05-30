@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
 	stack<int> MyStack;
-	cout << "Please enter an expression: " << endl;
+	cout << "Please enter an expression in RPN (e.g. 5 7+=): " << endl;
 	int c = getchar();
 	string number = "";
 	while (c != '=') {
