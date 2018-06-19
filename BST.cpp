@@ -51,11 +51,11 @@ public:
 };
 
 int main() {
-    Node* root = new Node(1);
-	root.insert(3);
-	root.insert(-1);
-	root.insert(10);
-	root.insert(1);
-	root.insert(2);
-	root.inOrder();
+	Node* root = new Node(1);
+	root->insert(3);
+	root->insert(-1);
+	root->insert(10);
+	root->insert(1);
+	root->insert(2);
+	root->inOrder();
 }
